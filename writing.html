@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文章 · 知水</title>
+<meta name="description" content="知水写的文章：关于代码、工具和做事方法。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="index.html"><span class="dot"></span>知水</a>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于</a>
+      <a href="work.html">作品</a>
+      <a href="writing.html" aria-current="page">文章</a>
+      <a href="contact.html">联系</a>
+    </nav>
+    <button class="menu-btn" aria-expanded="false" aria-label="打开菜单"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="overlay">
+  <nav>
+    <a href="index.html"><i>01</i>首页</a>
+    <a href="about.html"><i>02</i>关于</a>
+    <a href="work.html"><i>03</i>作品</a>
+    <a href="writing.html" aria-current="page"><i>04</i>文章</a>
+    <a href="contact.html"><i>05</i>联系</a>
+  </nav>
+</div>
+
+<main>
+
+  <section class="hero wrap" style="padding-bottom:clamp(28px,4vw,48px)">
+    <p class="label hello">文章 / Writing</p>
+    <h1 class="display">写下来，<br>才算<em>想过</em>。</h1>
+    <p class="lede" style="margin-top:clamp(22px,3vw,34px)">
+      写得不多，但每篇都是自己想清楚了才发。不追热点，不凑更新。
+    </p>
+  </section>
+
+  <section class="section wrap" style="border-top:0">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <p class="label">最近的</p>
+      <span class="sec-more">共 4 篇</span>
+    </div>
+
+    <div class="rows reveal">
+      <a class="row" href="#">
+        <span class="row-no">01</span>
+        <span class="row-main">
+          <span class="row-title">为什么我把博客从框架搬回了纯 HTML</span>
+          <p class="row-desc">
+            折腾了三天构建工具、两天主题配置，最后发现：我想要的是写东西，不是维护一个博客系统。
+            关掉 node_modules 的那一刻，页面快了十倍，人也轻松了十倍。
+          </p>
+          <span class="row-tags"><span class="tag">随笔</span><span class="tag">工具</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026.10</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="#">
+        <span class="row-no">02</span>
+        <span class="row-main">
+          <span class="row-title">「能用」比「完美」重要一百倍</span>
+          <p class="row-desc">
+            我的硬盘里躺着十几个写完百分之九十、从没打开第二次的项目。真正改变了我的生活的，
+            是那些丑得要死但今天就在跑的小脚本。
+          </p>
+          <span class="row-tags"><span class="tag">随笔</span><span class="tag">做事方法</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026.09</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="#">
+        <span class="row-no">03</span>
+        <span class="row-main">
+          <span class="row-title">自动化的第一课：先手动做一个月</span>
+          <p class="row-desc">
+            没摸清规律就写脚本，等于给混乱立规矩。先手动做三十天，你会知道自己真正在重复什么。
+          </p>
+          <span class="row-tags"><span class="tag">自动化</span><span class="tag">经验</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026.07</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="#">
+        <span class="row-no">04</span>
+        <span class="row-main">
+          <span class="row-title">给自己写工具的人，最后都变成了懒人</span>
+          <p class="row-desc">
+            这是好事。懒得重复，才会去想别的办法；想别的办法，才真的开始理解自己在做什么。
+          </p>
+          <span class="row-tags"><span class="tag">随笔</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026.05</span><span class="row-arrow">→</span></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="split split--wide reveal">
+      <div>
+        <p class="label" style="margin-bottom:14px">关于写东西</p>
+        <h2 class="h1">不更新，<br>也<em>不用道歉</em>。</h2>
+      </div>
+      <div>
+        <p class="body-text">
+          我没有更新计划。有想说的话就写，没有就安静做东西。
+          如果你想知道新文章什么时候发，可以去联系页留个邮箱，我发的时候会顺手抄送一份 —— 一年大概三四封。
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn--accent" href="contact.html">留个邮箱 <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <p class="label" style="margin-bottom:14px">现在在做什么</p>
+        <p class="h2">把想法做成<em>能用</em>的小东西。</p>
+      </div>
+      <a class="btn btn--accent" href="contact.html">聊聊 →</a>
+    </div>
+    <p class="big-name">知水</p>
+    <div class="foot-bottom">
+      <p>© <span id="year">2026</span> 知水 · 用 HTML 和耐心做成</p>
+      <nav class="foot-nav">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="work.html">作品</a>
+        <a href="writing.html">文章</a>
+        <a href="contact.html">联系</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

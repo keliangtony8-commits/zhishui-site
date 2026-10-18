@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>知水 · 开发者 / 写作者</title>
+<meta name="description" content="知水的个人主页：开发者、写作者。写代码，也写字。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="index.html"><span class="dot"></span>知水</a>
+    <nav class="nav-links">
+      <a href="index.html" aria-current="page">首页</a>
+      <a href="about.html">关于</a>
+      <a href="work.html">作品</a>
+      <a href="writing.html">文章</a>
+      <a href="contact.html">联系</a>
+    </nav>
+    <button class="menu-btn" aria-expanded="false" aria-label="打开菜单"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="overlay">
+  <nav>
+    <a href="index.html" aria-current="page"><i>01</i>首页</a>
+    <a href="about.html"><i>02</i>关于</a>
+    <a href="work.html"><i>03</i>作品</a>
+    <a href="writing.html"><i>04</i>文章</a>
+    <a href="contact.html"><i>05</i>联系</a>
+  </nav>
+</div>
+
+<main>
+
+  <!-- ============ Hero ============ -->
+  <section class="hero wrap">
+    <p class="label hello">Hello, World — 你好</p>
+    <h1 class="display">我是知水，<br>一个喜欢把事情<br><em>想清楚</em>的人。</h1>
+    <p class="lede">
+      开发者 / 写作者。白天写代码，晚上读点书、写点东西。
+      相信小而锋利的工具，比庞大臃肿的系统更有生命力。
+    </p>
+    <div class="hero-cta">
+      <a class="btn" href="work.html">看看我做的事 <span>→</span></a>
+      <a class="btn btn--ghost" href="contact.html">写信给我</a>
+    </div>
+
+    <div class="meta-grid">
+      <div>
+        <p class="k">位置</p>
+        <p class="v">中国 · 上海</p>
+      </div>
+      <div>
+        <p class="k">专注</p>
+        <p class="v">Web 开发 · 效率工具</p>
+      </div>
+      <div>
+        <p class="k">正在做</p>
+        <p class="v">个人网站 v2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 精选项目 ============ -->
+  <section class="section wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <p class="label">精选项目</p>
+      <a class="sec-more" href="work.html">全部作品 →</a>
+    </div>
+
+    <div class="rows reveal">
+      <a class="row" href="work.html">
+        <span class="row-no">01</span>
+        <span class="row-main">
+          <span class="row-title">今日重点新闻</span>
+          <p class="row-desc">每天早上自动整理当日要闻，一屏读完重点，不再被信息流推着走。</p>
+          <span class="row-tags"><span class="tag">Python</span><span class="tag">自动化</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="work.html">
+        <span class="row-no">02</span>
+        <span class="row-main">
+          <span class="row-title">天气卡片生成器</span>
+          <p class="row-desc">把任意城市的天气渲染成一张好看的分享卡片，给自己看，也发给朋友。</p>
+          <span class="row-tags"><span class="tag">Python</span><span class="tag">Pillow</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="work.html">
+        <span class="row-no">03</span>
+        <span class="row-main">
+          <span class="row-title">个人监控小站</span>
+          <p class="row-desc">盯价格、盯站点、盯比分，变化了自动提醒我，不用一直手动刷。</p>
+          <span class="row-tags"><span class="tag">Flask</span><span class="tag">定时任务</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2025</span><span class="row-arrow">→</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ 一段话 ============ -->
+  <section class="section wrap">
+    <div class="split split--wide">
+      <div class="quote reveal">
+        <p>“工具的意义不在于它<br>能做多少事，而在于它<br>让你少做多少事。”</p>
+        <cite>—— 我写在便签上的一句话</cite>
+      </div>
+      <div class="body-text reveal">
+        <p>
+          我做东西的起点通常是一个具体的别扭：某个流程太重复、某个信息太难找、某个工具用起来别手。
+          然后我会先用最笨的办法手做一遍，确认它真的值得被自动化，再动手写代码。
+        </p>
+        <p>
+          我不追新技术，只追「更省事」。如果一个工具需要我先读半小时文档才能用，
+          那它大概没打算帮我省时间。
+        </p>
+        <a class="link-u" href="about.html">更多关于我</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 最近写的东西 ============ -->
+  <section class="section wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <p class="label">最近写的东西</p>
+      <a class="sec-more" href="writing.html">全部文章 →</a>
+    </div>
+
+    <div class="rows reveal">
+      <a class="row" href="writing.html">
+        <span class="row-no">01</span>
+        <span class="row-main">
+          <span class="row-title">我如何用三个脚本省下每天一小时</span>
+          <p class="row-desc">把重复的事交给机器，人只负责判断和决定。</p>
+        </span>
+        <span class="row-side"><span class="row-year">2026.10</span><span class="row-arrow">→</span></span>
+      </a>
+      <a class="row" href="writing.html">
+        <span class="row-no">02</span>
+        <span class="row-main">
+          <span class="row-title">信息过载时代的阅读方法</span>
+          <p class="row-desc">少读一点，读透一点。我的新闻筛选流程。</p>
+        </span>
+        <span class="row-side"><span class="row-year">2026.09</span><span class="row-arrow">→</span></span>
+      </a>
+      <a class="row" href="writing.html">
+        <span class="row-no">03</span>
+        <span class="row-main">
+          <span class="row-title">写给初学者的第一个自动化项目</span>
+          <p class="row-desc">从一个每天都要点五下的网页开始。</p>
+        </span>
+        <span class="row-side"><span class="row-year">2026.08</span><span class="row-arrow">→</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section wrap">
+    <div class="split reveal">
+      <div>
+        <p class="label" style="margin-bottom:14px">下一步</p>
+        <h2 class="h1">有想法想聊？<br>我一直<em>在</em>。</h2>
+      </div>
+      <div>
+        <p class="body-text">
+          不管是合作、请教、还是单纯觉得某个东西有意思，都欢迎写信给我。
+          我会一封封看，通常 24 小时内回复。
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn--accent" href="contact.html">写信给我 <span>→</span></a>
+          <a class="btn btn--ghost" href="writing.html">先读读我的文章</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <p class="label" style="margin-bottom:14px">现在在做什么</p>
+        <p class="h2">把想法做成<em>能用</em>的小东西。</p>
+      </div>
+      <a class="btn btn--accent" href="contact.html">聊聊 →</a>
+    </div>
+    <p class="big-name">知水</p>
+    <div class="foot-bottom">
+      <p>© <span id="year">2026</span> 知水 · 用 HTML 和耐心做成</p>
+      <nav class="foot-nav">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="work.html">作品</a>
+        <a href="writing.html">文章</a>
+        <a href="contact.html">联系</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

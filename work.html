@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>作品 · 知水</title>
+<meta name="description" content="知水做过的东西：小工具、脚本和站点。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="index.html"><span class="dot"></span>知水</a>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于</a>
+      <a href="work.html" aria-current="page">作品</a>
+      <a href="writing.html">文章</a>
+      <a href="contact.html">联系</a>
+    </nav>
+    <button class="menu-btn" aria-expanded="false" aria-label="打开菜单"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="overlay">
+  <nav>
+    <a href="index.html"><i>01</i>首页</a>
+    <a href="about.html"><i>02</i>关于</a>
+    <a href="work.html" aria-current="page"><i>03</i>作品</a>
+    <a href="writing.html"><i>04</i>文章</a>
+    <a href="contact.html"><i>05</i>联系</a>
+  </nav>
+</div>
+
+<main>
+
+  <section class="hero wrap" style="padding-bottom:clamp(28px,4vw,48px)">
+    <p class="label hello">作品 / Work</p>
+    <h1 class="display">做过的<br><em>小东西</em>。</h1>
+    <p class="lede" style="margin-top:clamp(22px,3vw,34px)">
+      这里的东西都不大，但每一个都解决了我自己真实遇到的一个别扭。
+      按时间倒序排列，新的在上。
+    </p>
+  </section>
+
+  <section class="section wrap" style="border-top:0">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <p class="label">项目</p>
+      <span class="sec-more">共 4 个</span>
+    </div>
+
+    <div class="rows reveal">
+      <a class="row" href="#">
+        <span class="row-no">01</span>
+        <span class="row-main">
+          <span class="row-title">今日重点新闻</span>
+          <p class="row-desc">
+            每天早上自动抓取当天的重要新闻，整理成一页重点：一条标题、一句摘要、一个链接。
+            一屏读完，不用在信息流里翻十分钟。
+          </p>
+          <span class="row-tags"><span class="tag">Python</span><span class="tag">自动化</span><span class="tag">Markdown</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="#">
+        <span class="row-no">02</span>
+        <span class="row-main">
+          <span class="row-title">天气卡片生成器</span>
+          <p class="row-desc">
+            输入城市名，出来一张可以直接发出去的天气卡片。给自己看，也发给朋友。
+            第一次做出这种东西的时候，我第一次觉得「会写代码」是件幸福的事。
+          </p>
+          <span class="row-tags"><span class="tag">Python</span><span class="tag">Pillow</span><span class="tag">API</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="#">
+        <span class="row-no">03</span>
+        <span class="row-main">
+          <span class="row-title">个人监控小站</span>
+          <p class="row-desc">
+            盯价格、盯站点、盯比分。东西变了就提醒我，不变就安静待着。
+            代替我每天手动刷十几次网页。
+          </p>
+          <span class="row-tags"><span class="tag">Flask</span><span class="tag">定时任务</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2025</span><span class="row-arrow">→</span></span>
+      </a>
+
+      <a class="row" href="#">
+        <span class="row-no">04</span>
+        <span class="row-main">
+          <span class="row-title">个人网站 v2</span>
+          <p class="row-desc">
+            就是你现在看到的这个。手写的 HTML + CSS，没有框架，没有构建步骤。
+            改一个文件，刷新就能看到结果 —— 这才是我想要的写网页方式。
+          </p>
+          <span class="row-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">手写</span></span>
+        </span>
+        <span class="row-side"><span class="row-year">2026</span><span class="row-arrow">→</span></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <p class="label">顺手写的</p>
+    </div>
+    <div class="rows reveal">
+      <a class="row" href="#">
+        <span class="row-no">05</span>
+        <span class="row-main">
+          <span class="row-title">批量重命名脚本</span>
+          <p class="row-desc">把一整个文件夹的照片按日期重排，三秒钟的事。</p>
+        </span>
+        <span class="row-side"><span class="row-year">2025</span><span class="row-arrow">→</span></span>
+      </a>
+      <a class="row" href="#">
+        <span class="row-no">06</span>
+        <span class="row-main">
+          <span class="row-title">读书笔记整理器</span>
+          <p class="row-desc">把散落的划线整理成一篇能读的摘要。</p>
+        </span>
+        <span class="row-side"><span class="row-year">2025</span><span class="row-arrow">→</span></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="split reveal">
+      <div>
+        <p class="label" style="margin-bottom:14px">想看更多</p>
+        <h2 class="h1">代码都在<br><em>GitHub</em> 上。</h2>
+      </div>
+      <div>
+        <p class="body-text">
+          大部分东西我都放在 GitHub 上，欢迎翻。有 bug 也欢迎直接提 issue ——
+          被指出问题我会很高兴，说明真的有人用。
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn--accent" href="https://github.com" target="_blank" rel="noopener">去 GitHub 看看 <span>→</span></a>
+          <a class="btn btn--ghost" href="contact.html">直接问我</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <p class="label" style="margin-bottom:14px">现在在做什么</p>
+        <p class="h2">把想法做成<em>能用</em>的小东西。</p>
+      </div>
+      <a class="btn btn--accent" href="contact.html">聊聊 →</a>
+    </div>
+    <p class="big-name">知水</p>
+    <div class="foot-bottom">
+      <p>© <span id="year">2026</span> 知水 · 用 HTML 和耐心做成</p>
+      <nav class="foot-nav">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="work.html">作品</a>
+        <a href="writing.html">文章</a>
+        <a href="contact.html">联系</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
